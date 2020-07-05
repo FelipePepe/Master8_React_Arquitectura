@@ -14,12 +14,12 @@
     "esModuleInterop": true,
     "baseUrl": "./src/",
     "paths": {
+      "common-app": ["common-app"],
+      "common": ["common"],
+      "layouts": ["layouts"],
       "core": ["core"],
       "scenes": ["scenes"],
-      "pods": ["pods"],
-      "layouts": ["layouts"],
-      "common": ["common"]
-      // "form": ["form"]
+      "pods": ["pods"]
     }
   },
   "include": ["./src/**/*", "./config/test/setup.ts", "./global.types.d.ts"]
